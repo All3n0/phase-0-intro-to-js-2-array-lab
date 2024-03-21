@@ -17,21 +17,12 @@ function destructivelyRemoveLastCat(){
 function destructivelyRemoveFirstCat(){
     cats.shift()
 }
-function appendCat(cats,kib){
-   const undefined = cats.concat(kib)
-   const Broomundefined = 
-   [
-    "Milo",
-    "Otis",
-    "Garfield",
-    "Broom"
-   ]
-   return Broomundefined
+function appendCat(Broom){
+    return [...cats,Broom]
    
-     
 }
-function prependCat(){
-    const Arnold = 'Arnold';
+function prependCat(Arnold){
+    
    return [Arnold , ...cats];
 }
 function removeLastCat(){
